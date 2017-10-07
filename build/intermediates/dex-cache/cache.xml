@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\e6eb0478d92bc58caa26660b81a8e8a7535ab2f9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_0f02d41731e056f3654af3aabdf8941ff8287542.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Administrator\.android\build-cache\c8ff89f8a984634827ce076b29b611bcef59d8d3\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -84,21 +75,48 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\c93536d9a5592c89bfcaf7fae130df54c9cb2e8d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_25340bcc9dbec80f696837ad50b3cff1bbfd4506.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Administrator\.android\build-cache\76fc28cd6434f995f8f379e27aae7417d470ef3e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
         <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_52bdb25d9e8f724e08bd3e6d3b44ce892fad4164.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ff88f30d3821714b3d6bda90153254d42e55ffcf">
+        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4ad224c6c26de7caf40a2c32b6d54afe22229d74\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\e6eb0478d92bc58caa26660b81a8e8a7535ab2f9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_0f02d41731e056f3654af3aabdf8941ff8287542.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_32159feab73191f08ef2bc32930bee6eae80db2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\c93536d9a5592c89bfcaf7fae130df54c9cb2e8d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_25340bcc9dbec80f696837ad50b3cff1bbfd4506.jar" />
     </item>
     <item
         is-multidex="false"
