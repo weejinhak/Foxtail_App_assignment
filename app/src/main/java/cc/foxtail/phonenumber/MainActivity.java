@@ -13,36 +13,59 @@ import static android.R.attr.id;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    private Button btn1;
+    private Button btn2;
+    private Button btn3;
+    private Button btn4;
+    private Button btn5;
+    private Button btn6;
+    private Button btn7;
+    private Button btn8;
+    private Button btn9;
+    private Button btn0;
+    private Button btnStar;
+    private Button btnSharp;
+
+    private ImageButton btn10;
+    private ImageButton btn11;
+    private ImageButton btn12;
+    private ImageButton btn13;
+    private ImageButton btn14;
+    private ImageButton btn15;
+    private ImageButton btnback;
+    private TextView phoneNumberTextView;
+    private StringBuilder phontext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.phonenumber_layout);
 
-        final Button btn1 = (Button) findViewById(R.id.button1);
-        final Button btn2 = (Button) findViewById(R.id.button2);
-        final Button btn3 = (Button) findViewById(R.id.button3);
-        final Button btn4 = (Button) findViewById(R.id.button4);
-        final Button btn5 = (Button) findViewById(R.id.button5);
-        final Button btn6 = (Button) findViewById(R.id.button6);
-        final Button btn7 = (Button) findViewById(R.id.button7);
-        final Button btn8 = (Button) findViewById(R.id.button8);
-        final Button btn9 = (Button) findViewById(R.id.button9);
-        final Button btn0 = (Button) findViewById(R.id.button0);
-        final Button btnStar= (Button) findViewById(R.id.buttonStar);
-        final Button btnSharp= (Button) findViewById(R.id.buttonSharp);
+        btn1 = (Button) findViewById(R.id.button1);
+        btn2 = (Button) findViewById(R.id.button2);
+        btn3 = (Button) findViewById(R.id.button3);
+        btn4 = (Button) findViewById(R.id.button4);
+        btn5 = (Button) findViewById(R.id.button5);
+        btn6 = (Button) findViewById(R.id.button6);
+        btn7 = (Button) findViewById(R.id.button7);
+        btn8 = (Button) findViewById(R.id.button8);
+        btn9 = (Button) findViewById(R.id.button9);
+        btn0 = (Button) findViewById(R.id.button0);
+        btnStar= (Button) findViewById(R.id.buttonStar);
+        btnSharp= (Button) findViewById(R.id.buttonSharp);
 
 
-        final ImageButton btn10= (ImageButton) findViewById(R.id.button10);
-        final ImageButton btn11= (ImageButton) findViewById(R.id.button11);
-        final ImageButton btn12= (ImageButton) findViewById(R.id.button12);
-        final ImageButton btn13= (ImageButton) findViewById(R.id.button13);
-        final ImageButton btn14= (ImageButton) findViewById(R.id.button14);
-        final ImageButton btn15= (ImageButton) findViewById(R.id.button15);
-        final ImageButton btnback= (ImageButton) findViewById(R.id.buttonBack);
+        btn10= (ImageButton) findViewById(R.id.button10);
+        btn11= (ImageButton) findViewById(R.id.button11);
+        btn12= (ImageButton) findViewById(R.id.button12);
+        btn13= (ImageButton) findViewById(R.id.button13);
+        btn14= (ImageButton) findViewById(R.id.button14);
+        btn15= (ImageButton) findViewById(R.id.button15);
+        btnback= (ImageButton) findViewById(R.id.buttonBack);
         btnback.setVisibility(View.INVISIBLE);
-        final TextView phoneNumberTextView= (TextView) findViewById(R.id.phoneNumberTextView);
-        final StringBuilder phontext = new StringBuilder();
+        phoneNumberTextView= (TextView) findViewById(R.id.phoneNumberTextView);
+        phontext = new StringBuilder();
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
