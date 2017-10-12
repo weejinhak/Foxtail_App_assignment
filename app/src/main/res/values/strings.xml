@@ -13,4 +13,6 @@
     <string name="buttonStar">*</string>
     <string name="buttonSharp">#</string>
 
+    <color name="backgroundColor">#FFFFFF</color>
+
 </resources>

@@ -2,130 +2,130 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\9371e9520418f19fc4edc703de3a9580007a01f4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_26c79f2330bcc2f954f9448b0801d68bfc99b86a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\c8ff89f8a984634827ce076b29b611bcef59d8d3\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_7cec503c399717a2c861d68e46ffe5865ea3a1c1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\cc925a3add7e7846d1523236df233d4d46459a7a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_4c36e1dc349513ec619b5621fb89256224a7bb90.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\6e5cf85a165477e7565aef7ad790e873f5cc3fd6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_9fd6bb0e43bd569e4a5f493e21a6c8e36998a583.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\05e2d401be747f4952e44450b0d31169c907fedd\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_789f6ab3f90cb409134b8bfc91560c4886259a40.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_69e89180a4d865ebff11250d4742ea295cbaecc8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\791d18743f5a91cb3d197fc739aa23f7fadf903e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_ac6e859c3ff0bd90087f8d272087b74ef3ecc4ff.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_77bbafad21bc1ac169e6a221a15373f3eab9dd96.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\76fc28cd6434f995f8f379e27aae7417d470ef3e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_52bdb25d9e8f724e08bd3e6d3b44ce892fad4164.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/Users/wee/.android/build-cache/c8b67384d95bec905249a192248224149c319776/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="ff88f30d3821714b3d6bda90153254d42e55ffcf">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4ad224c6c26de7caf40a2c32b6d54afe22229d74\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\e6eb0478d92bc58caa26660b81a8e8a7535ab2f9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_0f02d41731e056f3654af3aabdf8941ff8287542.jar" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7639c0a7e92c0d8456a7d5fdabe83f4cd37456c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/wee/.android/build-cache/339a856768566d2db4b46fde58ba5c41c4a8e0f1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_31ebbacfb80ca722c12a7a33a0356ad6ecab85dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/.android/build-cache/e57b2251dfe334ac86b5b116511664c62ba668bc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee112821b4e9cd1ae2d57cd87c57fa425daef399/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/.android/build-cache/1360ef05cc0767d5cbb0b2b3098ee884d09a4a07/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb5bc0bc023a73021550ddb9f24af856b84e5d3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_ca23d83228da3c86d87f08a2f8567bc91bacfe7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_32159feab73191f08ef2bc32930bee6eae80db2d\classes.dex" />
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_803285b52e27a3992e308f1c6b77b9ff3af849af/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\c93536d9a5592c89bfcaf7fae130df54c9cb2e8d\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/wee/.android/build-cache/15afdc6788cdec971fd3c6c9c1de5d5f776fa904/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_25340bcc9dbec80f696837ad50b3cff1bbfd4506.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd7b36d0a66c63223ab8b6ccb52d5c23c7f6eaa0/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\c67049e97bb6c535f06a173cfcb289e3a1524c1b\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/wee/.android/build-cache/f2334fb544a9117e7195f66acc050747aea84d69/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f13a2ed0678c95491330f050dd4859a9d303102c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/.android/build-cache/2d3eabd8c97e346ab74fa78eff5e25177b99e765/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6a6a0a4a73344d0de54872c92e88f132ec942746/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a65cd83c36533154b5acda574077b1bf39fb547f">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7e68df2b9383355af486ad5dba3fd87ba20b061f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/.android/build-cache/e29dce3c91eafa8a0a80e5ae2b0818fbcbb6890e/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\Administrator\Desktop\PhoneNumber\app\build\intermediates\pre-dexed\debug\classes_2edbefd4d62b819d9be1ff323095ea354d561d1a.jar" />
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3b88f0e6a5f6f752c2b9a3faea9a7388ce985113/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/.android/build-cache/efcf4a3c8602b1e0aa16f117304342b144d6de79/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_30ba207714f8578fd745f1fdea9cd27bf6d49a51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_d40a053ca3af3ddd82b2348d531301ab9161c2f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wee/.android/build-cache/cda864f3ac4f1a1450d799779374296424718e20/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/wee/workspace/AndroidProject/Foxtail_App_assignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3758c62b937ae07baa00e9ccdd4c1c5ae17cff3/classes.dex" />
     </item>
 
 </items>

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="81dp">
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@color/backgroundColor">
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -46,9 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.15"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="133dp" />
+        app:layout_constraintGuide_percent="0.15" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline6"
@@ -74,15 +73,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginBottom="8dp"
         android:background="@drawable/button_circle_shape"
         android:text="@string/button1"
         android:textColor="#000000"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        android:textSize="40sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6" />
 
     <Button
         android:id="@+id/button2"
@@ -93,7 +91,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/button2"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintLeft_toRightOf="@+id/button1"
         app:layout_constraintRight_toLeftOf="@+id/button3"
         app:layout_constraintTop_toTopOf="@+id/button1" />
@@ -107,7 +105,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/button3"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintLeft_toRightOf="@+id/button2"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button2" />
@@ -118,12 +116,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
         android:background="@drawable/button_circle_shape"
         android:text="@string/button4"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/button5"
@@ -138,7 +134,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/button5"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintLeft_toRightOf="@+id/button4"
         app:layout_constraintRight_toLeftOf="@+id/button6"
         app:layout_constraintTop_toTopOf="@+id/button4" />
@@ -152,7 +148,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/button6"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintLeft_toRightOf="@+id/button5"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button5" />
@@ -166,7 +162,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/button7"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/button8"
@@ -181,7 +177,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/button8"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintLeft_toRightOf="@+id/button7"
         app:layout_constraintRight_toLeftOf="@+id/button9"
         app:layout_constraintTop_toTopOf="@+id/button7" />
@@ -196,7 +192,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/button9"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintLeft_toRightOf="@+id/button8"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button8" />
@@ -211,7 +207,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/button0"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintLeft_toRightOf="@+id/buttonStar"
         app:layout_constraintRight_toLeftOf="@+id/buttonSharp"
         app:layout_constraintTop_toTopOf="@+id/buttonStar" />
@@ -225,7 +221,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/buttonStar"
         android:textColor="#000000"
-        android:textSize="70sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/button0"
@@ -241,7 +237,7 @@
         android:background="@drawable/button_circle_shape"
         android:text="@string/buttonSharp"
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintLeft_toRightOf="@+id/button0"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button0" />
@@ -254,13 +250,11 @@
         android:layout_centerVertical="true"
         android:background="@drawable/call_button_shape"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_phone_black_24dp"
+        android:src="@drawable/ic_phone_black_18dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline7"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintVertical_bias="0.312" />
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <ImageButton
         android:id="@+id/button11"
@@ -268,7 +262,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_star_black_24dp"
+        android:src="@drawable/ic_star_rate_black_18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/button12"
@@ -280,7 +274,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_access_time_black_24dp"
+        android:src="@drawable/ic_access_time_black_18dp"
         app:layout_constraintLeft_toRightOf="@+id/button11"
         app:layout_constraintRight_toLeftOf="@+id/button13"
         app:layout_constraintTop_toTopOf="@+id/button11" />
@@ -291,7 +285,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_people_black_24dp"
+        android:src="@drawable/ic_people_black_18dp"
         app:layout_constraintLeft_toRightOf="@+id/button12"
         app:layout_constraintRight_toLeftOf="@+id/button14"
         app:layout_constraintTop_toTopOf="@+id/button12" />
@@ -302,7 +296,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_dialpad_black_24dp"
+        android:src="@drawable/ic_dialpad_black_18dp"
         app:layout_constraintLeft_toRightOf="@+id/button13"
         app:layout_constraintRight_toLeftOf="@+id/button15"
         app:layout_constraintTop_toTopOf="@+id/button13" />
@@ -313,7 +307,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_speaker_notes_black_24dp"
+        android:src="@drawable/ic_speaker_notes_black_18dp"
         app:layout_constraintLeft_toRightOf="@+id/button14"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button14" />
@@ -325,7 +319,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_backspace_black_24dp"
+        android:src="@drawable/ic_backspace_black_18dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintRight_toRightOf="@+id/phoneNumberTextView"
         app:layout_constraintTop_toTopOf="parent" />

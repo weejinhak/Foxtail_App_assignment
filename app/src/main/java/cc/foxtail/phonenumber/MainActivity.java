@@ -1,5 +1,6 @@
 package cc.foxtail.phonenumber;
 
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,8 +11,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import static android.R.attr.id;
-
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends FragmentActivity {
 
 
     private Button btn1;
@@ -27,12 +27,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btnStar;
     private Button btnSharp;
 
-    private ImageButton btn10;
-    private ImageButton btn11;
-    private ImageButton btn12;
-    private ImageButton btn13;
-    private ImageButton btn14;
-    private ImageButton btn15;
     private ImageButton btnback;
     private TextView phoneNumberTextView;
     private StringBuilder phontext;
@@ -56,12 +50,6 @@ public class MainActivity extends AppCompatActivity {
         btnSharp= (Button) findViewById(R.id.buttonSharp);
 
 
-        btn10= (ImageButton) findViewById(R.id.button10);
-        btn11= (ImageButton) findViewById(R.id.button11);
-        btn12= (ImageButton) findViewById(R.id.button12);
-        btn13= (ImageButton) findViewById(R.id.button13);
-        btn14= (ImageButton) findViewById(R.id.button14);
-        btn15= (ImageButton) findViewById(R.id.button15);
         btnback= (ImageButton) findViewById(R.id.buttonBack);
         btnback.setVisibility(View.INVISIBLE);
         phoneNumberTextView= (TextView) findViewById(R.id.phoneNumberTextView);
