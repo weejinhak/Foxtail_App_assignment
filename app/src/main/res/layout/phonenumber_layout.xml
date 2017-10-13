@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
     tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="81dp"
-    android:background="@color/backgroundColor">
+    tools:layout_editor_absoluteY="81dp">
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -77,10 +77,10 @@
         android:text="@string/button1"
         android:textColor="#000000"
         android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6" />
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <Button
         android:id="@+id/button2"
@@ -208,18 +208,18 @@
         android:text="@string/button0"
         android:textColor="#000000"
         android:textSize="40sp"
-        app:layout_constraintLeft_toRightOf="@+id/buttonStar"
-        app:layout_constraintRight_toLeftOf="@+id/buttonSharp"
-        app:layout_constraintTop_toTopOf="@+id/buttonStar" />
+        app:layout_constraintLeft_toRightOf="@+id/button10"
+        app:layout_constraintRight_toLeftOf="@+id/button11"
+        app:layout_constraintTop_toTopOf="@+id/button10" />
 
     <Button
-        android:id="@+id/buttonStar"
+        android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:background="@drawable/button_circle_shape"
-        android:text="@string/buttonStar"
+        android:text="@string/button10"
         android:textColor="#000000"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
@@ -228,14 +228,13 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
-        android:id="@+id/buttonSharp"
+        android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="0dp"
         android:background="@drawable/button_circle_shape"
-        android:text="@string/buttonSharp"
+        android:text="@string/button11"
         android:textColor="#000000"
         android:textSize="40sp"
         app:layout_constraintLeft_toRightOf="@+id/button0"
@@ -243,7 +242,7 @@
         app:layout_constraintTop_toTopOf="@+id/button0" />
 
     <ImageButton
-        android:id="@+id/button10"
+        android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -257,7 +256,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <ImageButton
-        android:id="@+id/button11"
+        android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
@@ -265,30 +264,8 @@
         android:src="@drawable/ic_star_rate_black_18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/button12"
-        app:layout_constraintTop_toTopOf="@+id/guideline2" />
-
-    <ImageButton
-        android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button_rec_shape"
-        android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_access_time_black_18dp"
-        app:layout_constraintLeft_toRightOf="@+id/button11"
-        app:layout_constraintRight_toLeftOf="@+id/button13"
-        app:layout_constraintTop_toTopOf="@+id/button11" />
-
-    <ImageButton
-        android:id="@+id/button13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button_rec_shape"
-        android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_people_black_18dp"
-        app:layout_constraintLeft_toRightOf="@+id/button12"
         app:layout_constraintRight_toLeftOf="@+id/button14"
-        app:layout_constraintTop_toTopOf="@+id/button12" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <ImageButton
         android:id="@+id/button14"
@@ -296,7 +273,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_dialpad_black_18dp"
+        android:src="@drawable/ic_access_time_black_18dp"
         app:layout_constraintLeft_toRightOf="@+id/button13"
         app:layout_constraintRight_toLeftOf="@+id/button15"
         app:layout_constraintTop_toTopOf="@+id/button13" />
@@ -307,27 +284,53 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_speaker_notes_black_18dp"
+        android:src="@drawable/ic_people_black_18dp"
         app:layout_constraintLeft_toRightOf="@+id/button14"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/button16"
         app:layout_constraintTop_toTopOf="@+id/button14" />
+
+    <ImageButton
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rec_shape"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_dialpad_black_18dp"
+        app:layout_constraintLeft_toRightOf="@+id/button15"
+        app:layout_constraintRight_toLeftOf="@+id/button17"
+        app:layout_constraintTop_toTopOf="@+id/button15" />
+
+    <ImageButton
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rec_shape"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_speaker_notes_black_18dp"
+        app:layout_constraintLeft_toRightOf="@+id/button16"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button16" />
 
 
     <ImageButton
-        android:id="@+id/buttonBack"
+        android:id="@+id/button18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button_rec_shape"
         android:contentDescription="@string/app_name"
         android:src="@drawable/ic_backspace_black_18dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline4"
-        app:layout_constraintRight_toRightOf="@+id/phoneNumberTextView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintLeft_toRightOf="@+id/button12"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <TextView
         android:id="@+id/phoneNumberTextView"
         android:layout_width="0dp"
         android:layout_height="100dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#000000"
         android:textSize="50dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintLeft_toLeftOf="parent"
